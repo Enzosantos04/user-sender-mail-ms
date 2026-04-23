@@ -1,4 +1,6 @@
 package dev.java10x.email.dto;
 
-public record EmailDTO() {
+import java.util.UUID;
+
+public record EmailDTO(UUID id, String subject, String body) {
 }
